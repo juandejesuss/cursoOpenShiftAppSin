@@ -24,7 +24,7 @@ public class Aplicacion extends HttpServlet {
 
 	@Override
     protected void doGet(final HttpServletRequest request, final HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("Salida GET");
+        System.out.println("Salida GET numero dos");
         response.getWriter().println("Salida GET version master");  
         response.getWriter().flush();
     }
